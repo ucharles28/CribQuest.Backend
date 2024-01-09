@@ -1,0 +1,6 @@
+@CribQuest.Backend_HostAddress = http://localhost:5295
+
+GET {{CribQuest.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
