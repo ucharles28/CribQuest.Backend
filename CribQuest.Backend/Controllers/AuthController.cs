@@ -28,7 +28,11 @@ namespace CribQuest.Backend.Controllers
         ///  - Password must be at least 8 characters
         ///  - Password must have at least one non alphanumeric character
         ///  - Password must have at least one lowercase('a' - 'z') 
-        ///  - Password must have at least one uppercase('A' - 'Z') 
+        ///  - Password must have at least one uppercase('A' - 'Z')
+        /// AccountType & Integer representation (To be Reviewed):
+        /// - Admin: 0
+        /// - Agent: 1
+        /// - Customer: 2
         /// </remarks>
         /// <param name="payload">The details of the new user</param>
         /// <returns></returns>
